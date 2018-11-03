@@ -13,7 +13,7 @@ With a head at the top of the suspension layout
 ![](https://img-blog.csdn.net/20171204133548754?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYnlkYmJi/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 ## 1.第一步
-首先要明白数据的数据结构，我们需要将数据分为几组，每一组都是相同的一类，我这里将数据分为了三组，分别为类别一，类别二，类别三然后创建SectionDecoration让其继承 RecyclerView.ItemDecoration，类内部的实现如下：
+### 首先要明白数据的数据结构，我们需要将数据分为几组，每一组都是相同的一类，我这里将数据分为了三组，分别为类别一，类别二，类别三然后创建SectionDecoration让其继承 RecyclerView.ItemDecoration，类内部的实现如下：
 
 ```java
 private PowerGroupListener mGroupListener;
@@ -170,7 +170,7 @@ public interface PowerGroupListener {
     }
 ```
 ## 3.第三步
-###为了方便初始化和使用，创建一个类部类，用来 初始化 listener，设置Group高度，确定其是否靠左边：
+### 为了方便初始化和使用，创建一个类部类，用来 初始化 listener，设置Group高度，确定其是否靠左边：
 ```java
 public static class Builder {
         SectionDecoration mDecoration;
@@ -321,5 +321,5 @@ public static class Builder {
         app:fabSize="normal" />
 </android.support.design.widget.CoordinatorLayout>
 ```
-# 整个带有头吸顶布局的实现过程就完成了，如果有需要代码的同学，点开clone即可，别忘了star
+## 整个带有头吸顶布局的实现过程就完成了，如果有需要代码的同学，点开clone即可，别忘了star
 
