@@ -10,7 +10,7 @@ With a head at the top of the suspension layout
 ## 首先先贴上效果图：
 
 ### Dome用模拟器运行的效果，鼠标拨动和模拟器太卡等原因，实际效果比效果图更炫哦～～
-![](https://img-blog.csdn.net/20171204133548754?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYnlkYmJi/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![](https://github.com/hexingbo/CeilingDemo/blob/master/ceilingdemo.gif)
 
 ## 1.第一步
 ### 首先要明白数据的数据结构，我们需要将数据分为几组，每一组都是相同的一类，我这里将数据分为了三组，分别为类别一，类别二，类别三然后创建SectionDecoration让其继承 RecyclerView.ItemDecoration，类内部的实现如下：
